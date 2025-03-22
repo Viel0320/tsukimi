@@ -1,24 +1,24 @@
 name: Linux CI
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - "main"
-    paths-ignore:
-      - "docs/**"
-      - "**/.gitignore"
-      - "**/.dockerignore"
-      - LICENSE
-      - "**/*.md"
-  pull_request:
-    branches:
-      - "main"
-    paths-ignore:
-      - "docs/**"
-      - "**/.gitignore"
-      - "**/.dockerignore"
-      - LICENSE
-      - "**/*.md"
+  # push:
+  #   branches:
+  #     - "main"
+  #   paths-ignore:
+  #     - "docs/**"
+  #     - "**/.gitignore"
+  #     - "**/.dockerignore"
+  #     - LICENSE
+  #     - "**/*.md"
+  # pull_request:
+  #   branches:
+  #     - "main"
+  #   paths-ignore:
+  #     - "docs/**"
+  #     - "**/.gitignore"
+  #     - "**/.dockerignore"
+  #     - LICENSE
+  #     - "**/*.md"
 
 jobs:
   build:
