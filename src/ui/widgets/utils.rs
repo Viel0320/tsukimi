@@ -18,7 +18,7 @@ use super::{
     },
 };
 
-use crate::ui::{models::SETTINGS,provider::tu_object::TuObject,};
+use crate::ui::provider::tu_object::TuObject;
 
 pub trait TuItemBuildExt {
     fn tu_item(&self, poster: PosterType) -> &Self;
