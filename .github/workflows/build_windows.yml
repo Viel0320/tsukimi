@@ -1,6 +1,7 @@
 name: Windows GNU CI
 on:
   workflow_call:
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
